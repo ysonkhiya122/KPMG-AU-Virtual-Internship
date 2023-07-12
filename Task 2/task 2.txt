@@ -1,0 +1,17 @@
+Table - New Customer Data:
+1. Null Values in New Customer List: There are 29 records with null values in the "new 
+customer list" column. [Completeness]
+2. Inconsistent Gender Value: The "gender" column contains the value "U." [Consistency]
+3. Blank Values in Job Titles: There are 106 records with blank values in the "job_title" column. 
+[Completeness]
+4. "n/a" Value in Job Industry Category: There are 165 records with "n/a" as the job industry 
+category. [Validity]
+5. Float Values in Property Values: Some property values are represented as floats instead of 
+integers. [Validity]
+6. String Format in Postal Code, Property Value, and Past 3 Purchase Columns: The "postcode," 
+"property_valuation," and "past_3_years_bike_related_purchases" columns are represented as 
+strings instead of integers. [Validity]
+7. Unlabeled Columns: Columns Q, R, S, T, and U have no titles or labels, despite containing 
+data. [Consistency]
+8. deceased indicator column consist of single 'N' as a value thus can be discarded.
+9. country column consist of single value "Australia" thus can be discarded.
